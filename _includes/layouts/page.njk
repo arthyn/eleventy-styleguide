@@ -1,0 +1,12 @@
+---
+layout: layouts/base.njk
+---
+
+<h1>{{ title }}</h1>
+
+{{ content | safe }}
+
+
+{% for section in collections.styleguide %}
+	{% include "layouts/section.njk" %}
+{% endfor %}

@@ -1,0 +1,22 @@
+{
+  "name": "eleventy-styleguide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx eleventy",
+    "watch": "npx eleventy --watch",
+    "serve": "npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.8.3",
+    "html-minifier": "^4.0.0",
+    "markdown-it": "^9.1.0"
+  },
+  "dependencies": {
+    "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.3"
+  }
+}
