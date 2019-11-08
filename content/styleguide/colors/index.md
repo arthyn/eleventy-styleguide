@@ -1,17 +1,6 @@
 ---
+layout: layouts/page.njk
 title: Colors
-layout: layouts/section.njk
-displayUrl: /content/styleguide/colors/display
-tags: styleguide
+subSections: colors
 ---
 
-Here are our colors!
-
-{% set code %}
-<div>
-	<strong>Color 1:</strong>
-</div>
-<div>#FEFEFE</div>
-{% endset %}
-
-{% include "layouts/pattern.njk" %}

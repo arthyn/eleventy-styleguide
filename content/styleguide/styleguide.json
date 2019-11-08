@@ -1,3 +1,4 @@
 {
-	"layout": "layouts/section.njk"
+	"layout": "layouts/section.njk",
+	"tags": "page"
 }
